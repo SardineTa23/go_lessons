@@ -13,7 +13,7 @@ type MyInt int
 // 	println(n)
 // }
 
-// *MyInt  ポインタの指す中身をレシーバに渡す
+// *MyInt  aポインタの指す中身をレシーバに渡す
 func (n *MyInt) Inc() { *n++ }
 
 func main() {
