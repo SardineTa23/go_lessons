@@ -1,5 +1,6 @@
 package mylib
 
+// Average return the average
 func Average(s []int) int {
 	total := 0
 	for _, i := range s {
